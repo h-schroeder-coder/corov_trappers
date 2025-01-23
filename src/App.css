@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  background-color: #261714;
+  margin: 10px;
+  padding-top: 90px;
+}
+
+.App-header {
+  background-color: #261714;
+  color: white;
+}
+
+.Name {
+  font-family: "Frijole", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.CoRoVTagLine {
+  font-family: "Reenie Beanie", serif;
+  font-size: 60px;
+  line-height: 1;
+}
+
+@media max-width: 900px {
+  .CoRoVTagLine {
+    font-size: 30px;
+  }
+}
