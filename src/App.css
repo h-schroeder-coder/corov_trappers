@@ -1,25 +1,31 @@
 .App {
   text-align: center;
-  background-color: #261714;
+  background-color: #332C22;
   margin: 10px;
   padding-top: 90px;
 }
 
 .App-header {
-  background-color: #261714;
+  background-color: #332C22;
   color: white;
+}
+
+.CoRoVTrappersLogoPreferredDark {
+  background-color: #332C22;
 }
 
 .Name {
   font-family: "Frijole", serif;
   font-weight: 400;
   font-style: normal;
+  color: #F9B56F;
 }
 
 .CoRoVTagLine {
   font-family: "Reenie Beanie", serif;
   font-size: 60px;
   line-height: 1;
+  color: #DBE9D1;
 }
 
 @media max-width: 900px {

@@ -1,5 +1,5 @@
 import React from "react";
-import CoRoVTrappersSimpleLogoIconCropped from "./CoRoVTrappersSimpleLogoIconCropped.jpg";
+import CoRoVTrappersLogoPreferredDark from "./CoRoVTrappersLogoPreferredDark.jpg";
 import "./NavBar.css";
 
 export default function NavBar() {
@@ -11,8 +11,8 @@ export default function NavBar() {
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
           <img
-            className="CoRoVTrappersLogoIcon"
-            src={CoRoVTrappersSimpleLogoIconCropped}
+            className="CoRoVTrappersLogoPreferredDarkIcon"
+            src={CoRoVTrappersLogoPreferredDark}
             alt="CoRoV Trappers Logo Icon"
           />
         </a>

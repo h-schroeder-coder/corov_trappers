@@ -1,4 +1,4 @@
-.CoRoVTrappersLogoIcon {
+.CoRoVTrappersLogoPreferredDarkIcon {
     display: block;
     margin: 0 auto;
     max-height: 50px;
@@ -11,7 +11,7 @@ li {
 @media max-width: 900px {
     li {
         font-size: 18px;
-        
+
     }
     
 }
