@@ -1,9 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import BeaversOverBoat from "./BeaversOverBoat.jpg";
-import BeaversinRound from "./BeaversinRound.jpg";
-import FursOnBarnWall from "./FursOnBarnWall.jpg";
-import BeaversHangingPinned from "./BeaversHangingPinned.jpg";
+import BeaversOverBoat from "./media/BeaversOverBoat.jpg";
+import BeaversinRound from "./media/BeaversinRound.jpg";
+import FursOnBarnWall from "./media/FursOnBarnWall.jpg";
+import BeaversHangingPinned from "./media/BeaversHangingPinned.jpg";
+import WTAD5Table from "./media/WTAD5Table.jpg";
 import "./ImageCarousel.css";
 
 export default function ImageCarousel () {
@@ -14,13 +15,20 @@ export default function ImageCarousel () {
           class="carousel slide"
           data-bs-ride="carousel"
         >
-        <h2 className="WhatWeDo">What We Do</h2>
+          <h2 className="WhatWeDo">What We Do</h2>
           <div className="carousel-inner w-80">
             <div className="carousel-item active">
               <img
                 src={BeaversinRound}
                 className="d-block w-80"
                 alt="Beavers, raccoons, and other animals laid out in a circle in the snow"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src={WTAD5Table}
+                className="d-block w-80"
+                alt="Wisconsin Trappers Association District 5 Event"
               />
             </div>
             <div className="carousel-item">
