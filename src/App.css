@@ -2,7 +2,7 @@
   text-align: center;
   background-color: (var(--app-background-color));
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/CoRoVTrappersLogoPreferredDark.jpg");
-  background-size: 100%;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
@@ -10,6 +10,17 @@
   padding-top: 300px;
 }
 
-.App-header {
-  color: white;
+.App .LearnMore-Button {
+  background-color: var(--tertiary-color);
+  font-family: "Chelsea Market", serif;
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.App .ImageCarousel {
+  display: block;
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 80%;
 }
