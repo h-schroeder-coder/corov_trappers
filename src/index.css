@@ -1,3 +1,18 @@
+:root {
+  --page-background-color: #212529;
+  --app-background-color: #332C22;
+  --primary-color: #B4C08F;
+  --secondary-color: #F9B56F;
+  --tertiary-color: #DBE9D1;
+  --accent-color: #578D76;
+  --heading1: "Frijole", serif;
+  --heading2: "Rubik Dirt", serif;
+  --heading3: "Chelsea Market", serif;
+  --heading4: "Nothing You Could Do", serif;
+  --heading5: "Reenie Beanie", serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 body {
   margin: 10px auto;
   background-color: #212529;

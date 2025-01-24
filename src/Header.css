@@ -8,17 +8,12 @@
 }
 
 .Header .Name {
-  font-family: "Frijole", serif;
-  font-size: 80px;
-  font-weight: 400;
-  font-style: normal;
+  font-family: var(--heading1);
   color: #F9B56F;
 }
 
 .Header .CoRoVTagLine {
-  font-family: "Reenie Beanie", serif;
-  font-size: 60px;
-  line-height: 1;
+  font-family: var(--heading5);
   color: #DBE9D1;
 }
 
