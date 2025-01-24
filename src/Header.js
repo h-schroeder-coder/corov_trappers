@@ -1,6 +1,5 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import CoRoVTrappersLogoPreferredDark from "./CoRoVTrappersLogoPreferredDark.jpg";
 import "./Header.css";
 import NavBar from "./NavBar";
 
