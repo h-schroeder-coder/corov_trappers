@@ -8,9 +8,9 @@ export default function Header () {
         <header className="Header">
         <NavBar />
             <h1 className="Name">CoRoV Trappers</h1>
-            <h2 className="CoRoVTagLine">
+            <h3 className="CoRoVTagLine">
                 Fur-ocious Fellas Snagging Nature's Finest in Trap-tastic Adventures!
-            </h2>
+            </h3>
         </header>
     );
 }

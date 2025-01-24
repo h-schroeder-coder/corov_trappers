@@ -15,3 +15,9 @@
     margin: 0 auto;
     padding: 1rem;
 }
+
+.ImageCarousel .WhatWeDo {
+    font-family: "Rubik Dirt", serif;
+    color: var(--tertiary-color);
+    font-size: calc(30px + 0.390625vw);
+}

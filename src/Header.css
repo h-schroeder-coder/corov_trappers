@@ -4,7 +4,7 @@
 
 .Header .Name {
   font-family: var(--heading1);
-  font-size: calc(40px + 0.390625vw);
+  font-size: calc(50px + 0.390625vw);
   color: #F9B56F;
   margin: 0 auto;
   text-align: center;
@@ -12,7 +12,7 @@
 
 .Header .CoRoVTagLine {
   font-family: var(--heading5);
-  font-size: calc(20px + 0.390625vw);
+  font-size: calc(30px + 0.390625vw);
   color: #DBE9D1;
   margin: 0 auto;
   text-align: center;

@@ -14,6 +14,7 @@ export default function ImageCarousel () {
           class="carousel slide"
           data-bs-ride="carousel"
         >
+        <h2 className="WhatWeDo">What We Do</h2>
           <div className="carousel-inner w-80">
             <div className="carousel-item active">
               <img
