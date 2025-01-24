@@ -1,24 +1,25 @@
 .Header {
-  background-color: #332C22;
   color: white;
-}
-
-.Header .CoRoVTrappersLogoPreferredDark {
-  background-color: #332C22;
 }
 
 .Header .Name {
   font-family: var(--heading1);
+  font-size: 5rem;
   color: #F9B56F;
 }
 
 .Header .CoRoVTagLine {
   font-family: var(--heading5);
+  font-size: 3rem;
   color: #DBE9D1;
 }
 
 @media max-width: 900px {
-  .Header .CoRoVTagLine {
-    font-size: 30px;
+    .Header .Name {
+       font-size: calc(15px + 0.390625vw) !important;
+    }
+
+    .Header .CoRoVTagLine {
+        font-size: calc(15px + 0.390625vw) !important;
   }
 }

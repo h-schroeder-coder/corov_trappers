@@ -14,7 +14,7 @@
 }
 
 body {
-  margin: 10px auto;
+  margin: calc(8px + 1.5625vw);
   background-color: #212529;
   font-family: "Nothing You Could Do", serif;
 }

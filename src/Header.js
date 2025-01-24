@@ -9,11 +9,6 @@ export default function Header () {
         <header className="Header">
         <NavBar />
             <h1 className="Name">CoRoV Trappers</h1>
-            <img
-                src={CoRoVTrappersLogoPreferredDark}
-                className="img-fluid w-25 CoRoVLogo"
-                alt="CoRoV Trappers Logo"
-            />
             <h2 className="CoRoVTagLine">
                 Fur-ocious Fellas Snagging Nature's Finest in Trap-tastic Adventures!
             </h2>
