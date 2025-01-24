@@ -1,20 +1,13 @@
-.App {
-  text-align: center;
-  background-color: #332C22;
-  margin: 20px;
-  padding-top: 70px;
-}
-
-.App-header {
+.Header {
   background-color: #332C22;
   color: white;
 }
 
-.CoRoVTrappersLogoPreferredDark {
+.Header .CoRoVTrappersLogoPreferredDark {
   background-color: #332C22;
 }
 
-.Name {
+.Header .Name {
   font-family: "Frijole", serif;
   font-size: 80px;
   font-weight: 400;
@@ -22,7 +15,7 @@
   color: #F9B56F;
 }
 
-.CoRoVTagLine {
+.Header .CoRoVTagLine {
   font-family: "Reenie Beanie", serif;
   font-size: 60px;
   line-height: 1;
@@ -30,7 +23,7 @@
 }
 
 @media max-width: 900px {
-  .CoRoVTagLine {
+  .Header .CoRoVTagLine {
     font-size: 30px;
   }
 }

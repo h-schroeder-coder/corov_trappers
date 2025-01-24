@@ -1,0 +1,12 @@
+footer {
+    font-family: "Nothing You Could Do", serif;
+    color: #578D76;
+    margin: 30px;
+    padding: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #B4C08F;
+}
