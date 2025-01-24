@@ -4,13 +4,13 @@
 
 .Header .Name {
   font-family: var(--heading1);
-  font-size: 5rem;
+  font-size: 3rem;
   color: #F9B56F;
 }
 
 .Header .CoRoVTagLine {
   font-family: var(--heading5);
-  font-size: 3rem;
+  font-size: 2rem;
   color: #DBE9D1;
 }
 
